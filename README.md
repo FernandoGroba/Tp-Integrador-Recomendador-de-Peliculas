@@ -4,7 +4,7 @@
 
 ## Integrantes de la comisión 2:
 
-- **Matias Bermudez Jesus**
+- **Matias Jesus Bermudez**
 - **Joaquin Rafael Rodiguez**
 - **Fernando Daniel Groba**
 

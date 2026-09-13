@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "titulo": "Sueños de libertad",
+    "anio": "1994",
+    "genero": "Drama",
+    "director": "Frank Darabont",
+    "actores": "Tim Robbins, Morgan Freeman",
+    "rating": "5",
+    "sinopsis": "Dos hombres encarcelados forjan un vínculo a lo largo de los años, encontrando consuelo y redención a través de actos de decencia común."
+  },
+  {
+    "id": "2",
+    "titulo": "Jumanji: El siguiente nivel",
+    "anio": "2019",
+    "genero": "Aventura, Fantasía, Comedia",
+    "director": "Jake Kasdan",
+    "actores": "Dwayne Johnson, Kevin Hart",
+    "rating": "3.4",
+    "sinopsis": "La pandilla ha vuelto, pero el juego ha cambiado. Regresan a Jumanji para rescatar a uno de los suyos y descubren que nada es lo que esperan."
+  },
+  {
+    "id": "3",
+    "titulo": "El Padrino",
+    "anio": "1972",
+    "genero": "Crimen, Drama",
+    "director": "Francis Ford Coppola",
+    "actores": "Marlon Brando, Al Pacino",
+    "rating": "2.8",
+    "sinopsis": "El anciano patriarca de una dinastía del crimen organizado transfiere el control de su imperio clandestino a su reacio hijo."
+  },
+  {
+    "id": "4",
+    "titulo": "El Padrino: Parte II",
+    "anio": "1974",
+    "genero": "Crimen, Drama",
+    "director": "Francis Ford Coppola",
+    "actores": "Al Pacino, Robert De Niro",
+    "rating": "4.3",
+    "sinopsis": "Se retratan los primeros años de vida y carrera de Vito Corleone en la ciudad de Nueva York de 1920, mientras su hijo, Michael, expande y refuerza su control sobre el sindicato del crimen familiar."
+  },
+  {
+    "id": "5",
+    "titulo": "El Caballero de la Noche",
+    "anio": "2008",
+    "genero": "Acción, Crimen, Drama",
+    "director": "Christopher Nolan",
+    "actores": "Christian Bale, Heath Ledger",
+    "rating": "4",
+    "sinopsis": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Gotham, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia."
+  },
+  {
+    "id": "6",
+    "titulo": "12 Hombres en Pugna",
+    "anio": "1957",
+    "genero": "Drama",
+    "director": "Sidney Lumet",
+    "actores": "Henry Fonda, Lee J. Cobb",
+    "rating": "1.8",
+    "sinopsis": "Un miembro del jurado intenta evitar un error judicial obligando a sus colegas a reconsiderar la evidencia."
+  },
+  {
+    "id": "7",
+    "titulo": "Hazme el favor",
+    "anio": "2023",
+    "genero": "Comedia, Romance",
+    "director": "Gene Stupnitsky",
+    "actores": "Jennifer Lawrence, Andrew Barth Feldman",
+    "rating": "2.4",
+    "sinopsis": "A punto de perder su casa, una mujer acepta salir con el introvertido hijo de una pareja adinerada antes de que él se vaya a la universidad."
+  },
+  {
+    "id": "8",
+    "titulo": "El Señor de los Anillos: El Retorno del Rey",
+    "anio": "2003",
+    "genero": "Fantasía, Aventura, Drama",
+    "director": "Peter Jackson",
+    "actores": "Elijah Wood, Viggo Mortensen",
+    "rating": "1.9",
+    "sinopsis": "Gandalf y Aragorn lideran el Mundo de los Hombres contra el ejército de Sauron para desviar su mirada de Frodo y Sam mientras se acercan al Monte del Destino con el Anillo Único."
+  },
+  {
+    "id": "9",
+    "titulo": "Tiempos Violentos",
+    "anio": "1994",
+    "genero": "Crimen, Drama",
+    "director": "Quentin Tarantino",
+    "actores": "John Travolta, Uma Thurman",
+    "rating": "5",
+    "sinopsis": "Las vidas de dos mafiosos, un boxeador, un gánster y su esposa, y un par de bandidos de restaurante se entrelazan en cuatro historias de violencia y redención."
+  },
+  {
+    "id": "10",
+    "titulo": "El Bueno, el Malo y el Feo",
+    "anio": "1966",
+    "genero": "Western",
+    "director": "Sergio Leone",
+    "actores": "Clint Eastwood, Eli Wallach",
+    "rating": "4.3",
+    "sinopsis": "Una estafa de cazarrecompensas une a dos hombres en una incómoda alianza contra un tercero en una carrera por encontrar una fortuna en oro enterrada en un cementerio remoto."
+  },
+  {
+    "id": "11",
+    "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+    "anio": "2001",
+    "genero": "Fantasía, Aventura, Drama",
+    "director": "Peter Jackson",
+    "actores": "Elijah Wood, Ian McKellen",
+    "rating": "5",
+    "sinopsis": "Un humilde Hobbit de la Comarca y ocho compañeros emprenden un viaje para destruir el poderoso Anillo Único y salvar la Tierra Media del Señor Oscuro Sauron."
+  },
+  {
+    "id": "12",
+    "titulo": "El Club de la Pelea",
+    "anio": "1999",
+    "genero": "Drama",
+    "director": "David Fincher",
+    "actores": "Brad Pitt, Edward Norton",
+    "rating": "4.2",
+    "sinopsis": "Un oficinista insomne y un despreocupado fabricante de jabón forman un club de lucha subterráneo que evoluciona hacia algo mucho, mucho más grande."
+  },
+  {
+    "id": "13",
+    "titulo": "Duna: Parte Dos",
+    "anio": "2024",
+    "genero": "Ciencia Ficción, Aventura, Acción",
+    "director": "Denis Villeneuve",
+    "actores": "Timothée Chalamet, Zendaya",
+    "rating": "4.8",
+    "sinopsis": "Paul Atreides se une a Chani y los Fremen para vengarse de los conspiradores que destruyeron a su familia."
+  },
+  {
+    "id": "14",
+    "titulo": "Oppenheimer",
+    "anio": "2023",
+    "genero": "Biografía, Drama, Historia",
+    "director": "Christopher Nolan",
+    "actores": "Cillian Murphy, Robert Downey Jr.",
+    "rating": "5",
+    "sinopsis": "La historia del científico estadounidense J. Robert Oppenheimer y su papel en el desarrollo de la bomba atómica."
+  },
+  {
+    "id": "15",
+    "titulo": "Barbie",
+    "anio": "2023",
+    "genero": "Comedia, Fantasía",
+    "director": "Greta Gerwig",
+    "actores": "Margot Robbie, Ryan Gosling",
+    "rating": "3.2",
+    "sinopsis": "Barbie sufre una crisis que la lleva a cuestionar su mundo y su existencia."
+  },
+  {
+    "id": "16",
+    "titulo": "Spider-Man: Sin Camino a Casa",
+    "anio": "2021",
+    "genero": "Acción, Aventura, Ciencia Ficción",
+    "director": "Jon Watts",
+    "actores": "Tom Holland, Zendaya",
+    "rating": "4.6",
+    "sinopsis": "Con la identidad de Spider-Man revelada, Peter le pide ayuda al Doctor Strange, lo que provoca un caos en el multiverso."
+  },
+  {
+    "id": "17",
+    "titulo": "Avatar: El Camino del Agua",
+    "anio": "2022",
+    "genero": "Ciencia Ficción, Aventura, Acción",
+    "director": "James Cameron",
+    "actores": "Sam Worthington, Zoe Saldana",
+    "rating": "4.1",
+    "sinopsis": "Jake Sully vive con su nueva familia formada en el planeta Pandora, enfrentando nuevas amenazas."
+  },
+  {
+    "id": "18",
+    "titulo": "Batman",
+    "anio": "2022",
+    "genero": "Acción, Crimen, Drama",
+    "director": "Matt Reeves",
+    "actores": "Robert Pattinson, Zoë Kravitz",
+    "rating": "3.7",
+    "sinopsis": "Batman descubre la corrupción en Gotham City que se conecta con su propia familia mientras se enfrenta al Acertijo."
+  },
+  {
+    "id": "19",
+    "titulo": "Todo en Todas Partes al Mismo Tiempo",
+    "anio": "2022",
+    "genero": "Aventura, Ciencia Ficción, Acción",
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "actores": "Michelle Yeoh, Ke Huy Quan",
+    "rating": "5",
+    "sinopsis": "Una anciana inmigrante china se ve envuelta en una aventura salvaje donde solo ella puede salvar el mundo explorando otros universos."
+  },
+  {
+    "id": "20",
+    "titulo": "Matrix",
+    "anio": "1999",
+    "genero": "Ciencia Ficción, Acción",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "actores": "Keanu Reeves, Laurence Fishburne",
+    "rating": "5",
+    "sinopsis": "Un hacker informático aprende de misteriosos rebeldes sobre la verdadera naturaleza de su realidad y su papel en la guerra contra sus controladores."
+  },
+  {
+    "id": "21",
+    "titulo": "Mi Villano Favorito 4",
+    "anio": "2024",
+    "genero": "Animación, Comedia, Familiar",
+    "director": "Chris Renaud",
+    "actores": "Steve Carell, Kristen Wiig",
+    "rating": "4.5",
+    "sinopsis": "Gru, Lucy, Margo, Edith y Agnes dan la bienvenida a un nuevo miembro de la familia, Gru Jr., mientras enfrentan una nueva amenaza liderada por Maxime Le Mal."
+  },
+  {
+    "id": "22",
+    "titulo": "Hotel Transylvania 2",
+    "anio": "2015",
+    "genero": "Animación, Comedia, Familiar",
+    "director": "Genndy Tartakovsky",
+    "actores": "Adam Sandler, Selena Gomez",
+    "rating": "4.2",
+    "sinopsis": "Drácula intenta despertar los poderes de monstruo de su nieto Dennis antes de que su hija Mavis decida mudarse al mundo de los humanos."
+  },
+  {
+    "id": "23",
+    "titulo": "Merlina - Temporada 2",
+    "anio": "2025",
+    "genero": "Fantasía, Misterio, Comedia Oscura",
+    "director": "Tim Burton",
+    "actores": "Jenna Ortega, Emma Myers",
+    "rating": "4.3",
+    "sinopsis": "Merlina Addams regresa a la Academia Nunca Más para enfrentar nuevos misterios sobrenaturales, enemigos inesperados y oscuros secretos familiares."
+  },
+  {
+    "id": "24",
+    "titulo": "Super Mario Bros. La Película",
+    "anio": "2023",
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Aaron Horvath, Michael Jelenic",
+    "actores": "Chris Pratt, Anya Taylor-Joy",
+    "rating": "4.1",
+    "sinopsis": "Mario y Luigi son transportados al Reino Champiñón, donde deberán enfrentarse a Bowser para salvar el mundo y rescatar a la Princesa Peach."
+  },
+  {
+    "id": "25",
+    "titulo": "Moana 2",
+    "anio": "2024",
+    "genero": "Animación, Aventura, Familiar",
+    "director": "David Derrick Jr.",
+    "actores": "Auli'i Cravalho, Dwayne Johnson",
+    "rating": "4",
+    "sinopsis": "Tras recibir una inesperada llamada de sus ancestros, Moana emprende una nueva travesía por los mares de Oceanía junto a Maui y una tripulación de navegantes."
+  },
+  {
+    "id": "26",
+    "titulo": "Toy Story 4",
+    "anio": "2019",
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Josh Cooley",
+    "actores": "Tom Hanks, Tim Allen",
+    "rating": "4.4",
+    "sinopsis": "Woody, Buzz Lightyear y el resto de los juguetes emprenden una nueva aventura cuando Forky, el nuevo juguete de Bonnie, se pierde durante un viaje familiar."
+  },
+  {
+    "id": "27",
+    "titulo": "El Botín",
+    "anio": "2026",
+    "genero": "Acción, Crimen, Drama",
+    "director": "Joe Carnahan",
+    "actores": "Frank Grillo, Anthony Mackie",
+    "rating": "4.6",
+    "sinopsis": "Un grupo de policías de Miami descubre millones de dólares ocultos en un escondite abandonado. La confianza se rompe y todos comienzan a sospechar de todos mientras intentan quedarse con el dinero."
+  },
+  {
+    "id": "28",
+    "titulo": "Apex",
+    "anio": "2026",
+    "genero": "Acción, Suspenso, Supervivencia",
+    "director": "Baltasar Kormákur",
+    "actores": "Shailene Woodley, Jason Clarke",
+    "rating": "4.8",
+    "sinopsis": "Sasha, una experimentada escaladora, se adentra en la naturaleza salvaje de Australia para superar una tragedia personal. Lo que comienza como una expedición solitaria se convierte en una lucha por la supervivencia cuando un peligroso depredador humano comienza a cazarla."
+  },
+  {
+    "id": "29",
+    "titulo": "Máquina de Guerra",
+    "anio": "2026",
+    "genero": "Acción, Ciencia Ficción, Suspenso",
+    "director": "Neill Blomkamp",
+    "actores": "John Boyega, Karl Urban",
+    "rating": "4.9",
+    "sinopsis": "Durante la fase final del entrenamiento de los Army Rangers, un grupo de soldados de élite debe luchar por sobrevivir cuando se enfrenta a una gigantesca máquina alienígena letal."
+  },
+  {
+    "id": "30",
+    "titulo": "Una batalla tras otra",
+    "anio": "2025",
+    "genero": "Acción, Crimen, Drama, Suspenso",
+    "director": "F. Gary Gray",
+    "actores": "Vin Diesel, Michelle Rodriguez",
+    "rating": "4.7",
+    "sinopsis": "Un antiguo grupo de revolucionarios se ve obligado a reunirse después de 16 años cuando reaparece su viejo enemigo y la hija de uno de ellos desaparece, iniciando una peligrosa misión de rescate."
+  }
+]
