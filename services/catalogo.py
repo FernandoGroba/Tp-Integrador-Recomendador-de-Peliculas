@@ -17,12 +17,14 @@ class Catalogo:
             )        
 
 # ====== Búsqueda por titulo ======
-
-    def buscar(self, titulo:str) -> Pelicula | None:
-        for pelicula in self._elementos:
-            if pelicula.titulo.lower() == titulo.lower():
-                return pelicula
-        return None
+#cuando buscaba una pelicula tenia que escribir el titulo entero, asi que lo cambie para que busque por coincidencia parcial y me de las peliculas dependiendo la palabra que pongas
+    def buscar(self, titulo: str) -> list[Pelicula]:
+        busqueda = titulo.lower()
+        coincidencias = []
+        for peli in self._elementos:
+            if busqueda in peli.titulo.lower():
+                coincidencias.append(peli)
+        return coincidencias
 
 # ====== Listar películas ======
 
