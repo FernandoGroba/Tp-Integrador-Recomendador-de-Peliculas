@@ -37,13 +37,14 @@ class Terminal:
 
 
 
-    def _buscar(self) ->None:
+    def _buscar(self) -> None:
         titulo = input("Buscar por titulo: ").strip()
-        resultado = self._catalogo.buscar(titulo)
-        if resultado:
-            print(f"Encontrada: {resultado}")
+        resultados = self._catalogo.buscar(titulo)
+        if resultados:
+            for pelicula in resultados:
+                print(f"Encontrada: {pelicula}")
         else:
-            print("El titulo {resultado} no fue encontrado")
+            print(f"No se encontraron peliculas que contengan '{titulo}'")
 
     def _listar(self)->None:
         for pelicula in self._catalogo.listar():
