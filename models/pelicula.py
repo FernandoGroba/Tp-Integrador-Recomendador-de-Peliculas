@@ -1,5 +1,5 @@
 class Pelicula:
-    def __init__(self, id_peli, titulo, anio, genero, director, actores, rating, sinopsis):
+    def __init__(self, id_peli:int, titulo:str, anio:int, genero:str, director:str, actores:str, rating:float, sinopsis:str):
         self._id_peli = id_peli
         self._titulo = titulo
         self._anio = anio
@@ -11,7 +11,7 @@ class Pelicula:
 
     @property
     def id_peli(self):
-        return self.id_peli
+        return self._id_peli
 
     @property
     def titulo(self):
