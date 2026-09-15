@@ -1,4 +1,5 @@
-import json 
+import json
+import unicodedata
 
 from models.pelicula import Pelicula
 
@@ -6,6 +7,15 @@ class Catalogo:
     def __init__(self)-> None:
         self._elementos: list[Pelicula] = []
 
+# ====== Normalizador general ======
+    def _normalizar(self, texto: str) -> str:
+        """Remueve acentos/tildes y pasa todo el texto a minúsculas."""
+        if not texto:
+            return ""
+        texto_nfd = unicodedata.normalize("NFD", texto)
+        return "".join(
+            c for c in texto_nfd if unicodedata.category(c) != "Mn"
+        ).lower()
 
 # ====== Carga Json ======
     def cargar_json(self, ruta: str)-> None:
@@ -17,14 +27,12 @@ class Catalogo:
             )        
 
 # ====== Búsqueda por titulo ======
-#cuando buscaba una pelicula tenia que escribir el titulo entero, asi que lo cambie para que busque por coincidencia parcial y me de las peliculas dependiendo la palabra que pongas
     def buscar(self, titulo: str) -> list[Pelicula]:
-        busqueda = titulo.lower()
-        coincidencias = []
-        for peli in self._elementos:
-            if busqueda in peli.titulo.lower():
-                coincidencias.append(peli)
-        return coincidencias
+            """Devuelve una lista con las películas que contengan la palabra buscada."""
+            busqueda = self._normalizar(titulo)
+            return [
+                p for p in self._elementos if busqueda in self._normalizar(p.titulo)
+            ]
 
 # ====== Listar películas ======
 
@@ -34,25 +42,13 @@ class Catalogo:
 
 
 # ====== Filtro por genero ======
-
-    def filtrar_genero(self, genero:str)->list[Pelicula]:
-        #tuve un problema con los acentos en los géneros y pensé esta solución poco elegante:
-        busqueda = genero.lower()
-        if busqueda == "fantasia":
-            busqueda = "fantasía"
-        elif busqueda == "animacion":
-            busqueda = "animación"
-        elif busqueda == "accion":
-            busqueda = "acción"
-        elif busqueda == "ficcion":
-            busqueda = "ficción"
-        elif busqueda == "biografia":
-             busqueda = "biografía"
-
-        return[
-            pelicula for pelicula in self._elementos
-            if busqueda  in pelicula.genero.lower()
-        ]
+    def filtrar_genero(self, genero: str) -> list[Pelicula]:
+            busqueda = self._normalizar(genero)
+            return [
+                pelicula
+                for pelicula in self._elementos
+                if busqueda in self._normalizar(pelicula.genero)
+            ]
 
 # ====== Cantidaad de elementos ======
     
