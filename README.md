@@ -17,37 +17,37 @@
 
 **Este tp consiste en un sistema que recomnienda al usuario que peliculas ver como así tambien generar una lista para guardas peliculas del interes del usuario**
 
-## Principales módulos:
-
-**TBC**
-
-## Detalles:
-
-**TBC**
-
-
 ## Estructura del Proyecto
 
-```text
-.
-├── capturas/
-│   └── prueba_UnitTest_tp1.png   # Foto que demuestra que pasaron las pruebas
+├── algoritmos/ # Módulo para algoritmos específicos
 ├── data/
-│   └── data.json                 # El archivo con todas las peliculas guardadas
+│ └── data.json # El archivo con todas las películas guardadas
 ├── docs/
-│   ├── 01_requerimientos.md      
-│   ├── 02_casos_de_uso.md        # Paso a paso de cómo el usuario usa el programa
-│   ├── 03_diagrama_de_clases.md  
-│   ├── 04_diagrama_de_datos.md   
-│   ├── 05_gestion_proyecto.md   
-│   └── Propuesta.md              # La idea inicial que presentamos del TP
+│ ├── capturas/ # Evidencias de funcionamiento y pruebas
+│ │ ├── Busqued_por_titulo.png
+│ │ ├── filtrar_por_genero.png
+│ │ ├── listar_peliculas.png
+│ │ ├── menu.png
+│ │ ├── prueba_UnitTest_tp1.png
+│ │ └── salida.png
+│ ├── 01_requerimientos.md # Especificación de requisitos del sistema
+│ ├── 02_casos_de_uso.md # Paso a paso de cómo el usuario usa el programa
+│ ├── 03_diagrama_de_clases.md # Arquitectura de clases (Mermaid)
+│ ├── 04_diagrama_de_datos.md # Estructura del archivo JSON
+│ ├── 05_gestion_proyecto.md # Organización y roles del equipo
+│ └── Propuesta.md # La idea inicial que presentamos del TP
+├── estructuras/ # Módulo para estructuras de datos
 ├── models/
-│   └── pelicula.py               # La clase que define las peliculas
+│ ├── **init**.py
+│ └── pelicula.py # La clase que define la entidad Película
 ├── services/
-│   └── catalogo.py               # Catalogo para buscar y filtrar las peluculas
+│ ├── **init**.py
+│ └── catalogo.py # Catálogo para buscar y filtrar las películas
 ├── tests/
-│   └── test_catalogo.py          # Código para probar que el catalogo funcione bien
+│ ├── **init**.py
+│ └── test_catalogo.py # Pruebas unitarias del catálogo
 ├── UI/
-│   └── terminal.py               # El menu y las pantallas que se ven en la consola
-├── main.py                       # El archivo que se usa para para arrancar todo
-└── README.md                     # La presentacion y explicacion general del trabajo
+│ ├── **init**.py
+│ └── terminal.py # El menú y las pantallas que se ven en la consola
+├── main.py # El archivo principal para arrancar el sistema
+└── README.md # La presentación y explicación general del trabajo
