@@ -19,6 +19,7 @@
 
 ## Estructura del Proyecto
 
+```text
 ├── algoritmos/ # Módulo para algoritmos específicos
 ├── data/
 │ └── data.json # El archivo con todas las películas guardadas
@@ -51,3 +52,4 @@
 │ └── terminal.py # El menú y las pantallas que se ven en la consola
 ├── main.py # El archivo principal para arrancar el sistema
 └── README.md # La presentación y explicación general del trabajo
+```
