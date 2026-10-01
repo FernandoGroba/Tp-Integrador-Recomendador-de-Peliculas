@@ -75,7 +75,7 @@ def probar_rendimiento() -> None:
         # -------------------------------------------------------------
         inicio = time.perf_counter()
         for _ in range(repeticiones):
-            arbol.buscar(titulo_a_buscar)
+            arbol.buscar_exacto(titulo_a_buscar)
         fin = time.perf_counter()
         tiempo_arbol_ms = ((fin - inicio) / repeticiones) * 1000
 

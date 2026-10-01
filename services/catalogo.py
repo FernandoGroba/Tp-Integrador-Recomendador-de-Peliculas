@@ -7,6 +7,16 @@ class Catalogo:
     def __init__(self)-> None:
         self._elementos: list[Pelicula] = []
 
+# ====== Ordena los datos ======
+    def ordenar_por_titulo(self):
+         self._elementos.sort(key=lambda p: p.titulo.lower())
+
+# ====== B{usqueda binaria ======
+    def buscar_binaria(self, titulo:str):
+         calves = [p.titulo.lower() for p in self._elementos]
+         
+         
+         
 # ====== Normalizador general ======
     def _normalizar(self, texto: str) -> str:
         """Remueve acentos/tildes y pasa todo el texto a minúsculas."""
