@@ -99,3 +99,18 @@ class ArbolCatalogo:
             return []
         return self._postorder_recursivo(nodo.izquierdo) + self._postorder_recursivo(nodo.derecho) + [nodo.pelicula]
 
+    # ==========================================
+    # MÉTODO DE ALTURA (Para el test de desbalanceo)
+    # ==========================================
+    def obtener_altura(self):
+        return self._altura_recursiva(self.raiz)
+
+    def _altura_recursiva(self, nodo):
+        if nodo is None:
+            return 0
+        
+        # OJO: Si tu árbol viejo usaba .izq y .der en vez de .izquierdo y .derecho, cambialo acá abajo:
+        altura_izq = self._altura_recursiva(nodo.izquierdo)
+        altura_der = self._altura_recursiva(nodo.derecho)
+        
+        return 1 + max(altura_izq, altura_der)
