@@ -1,0 +1,47 @@
+﻿Se cargaron 30 elementos.
+
+========================================
+BIENVENIDOS A CINEMATCH
+========================================
+1 - Buscar pel├¡cula por t├¡tulo
+2 - Listar todas las pel├¡culas
+3 - Filtrar por g├®nero
+4 - Explorar categor├¡as (├ürbol)
+5 - Ver Top 10 (Heap)
+6 - Ver pel├¡culas relacionadas (Grafo)
+7 - Buscar camino entre pel├¡culas (BFS)
+8 - Explorar la red (BFS / DFS)
+0 - Salir
+----------------------------------------
+Opcion: 
+--- ­ƒò©´©Å PEL├ìCULAS RELACIONADAS ---
+T├¡tulo: 
+Si te gust├│ ┬½Matrix┬╗, quiz├ís te interesen:
+  1. Todo en Todas Partes al Mismo Tiempo ÔÇö Ô¡É 5.0 (2022)
+     Ôå│ g├®nero en com├║n: Acci├│n, Ciencia Ficci├│n
+  2. M├íquina de Guerra ÔÇö Ô¡É 4.9 (2026)
+     Ôå│ g├®nero en com├║n: Acci├│n, Ciencia Ficci├│n
+  3. Duna: Parte Dos ÔÇö Ô¡É 4.8 (2024)
+     Ôå│ g├®nero en com├║n: Acci├│n, Ciencia Ficci├│n
+  4. Spider-Man: Sin Camino a Casa ÔÇö Ô¡É 4.6 (2021)
+     Ôå│ g├®nero en com├║n: Acci├│n, Ciencia Ficci├│n
+  5. Avatar: El Camino del Agua ÔÇö Ô¡É 4.1 (2022)
+     Ôå│ g├®nero en com├║n: Acci├│n, Ciencia Ficci├│n
+
+(┬½Matrix┬╗ tiene 10 relaciones en el grafo.)
+
+
+========================================
+BIENVENIDOS A CINEMATCH
+========================================
+1 - Buscar pel├¡cula por t├¡tulo
+2 - Listar todas las pel├¡culas
+3 - Filtrar por g├®nero
+4 - Explorar categor├¡as (├ürbol)
+5 - Ver Top 10 (Heap)
+6 - Ver pel├¡culas relacionadas (Grafo)
+7 - Buscar camino entre pel├¡culas (BFS)
+8 - Explorar la red (BFS / DFS)
+0 - Salir
+----------------------------------------
+Opcion: Gracias por su consulta

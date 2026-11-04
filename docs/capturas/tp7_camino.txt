@@ -1,0 +1,36 @@
+﻿Se cargaron 30 elementos.
+
+========================================
+BIENVENIDOS A CINEMATCH
+========================================
+1 - Buscar pel├¡cula por t├¡tulo
+2 - Listar todas las pel├¡culas
+3 - Filtrar por g├®nero
+4 - Explorar categor├¡as (├ürbol)
+5 - Ver Top 10 (Heap)
+6 - Ver pel├¡culas relacionadas (Grafo)
+7 - Buscar camino entre pel├¡culas (BFS)
+8 - Explorar la red (BFS / DFS)
+0 - Salir
+----------------------------------------
+Opcion: 
+--- ­ƒº¡ CAMINO M├üS CORTO ENTRE PEL├ìCULAS (BFS) ---
+Pel├¡cula de origen: Pel├¡cula de destino: 
+Camino encontrado (2 saltos):
+  Matrix ÔåÆ El Caballero de la Noche ÔåÆ Oppenheimer
+
+
+========================================
+BIENVENIDOS A CINEMATCH
+========================================
+1 - Buscar pel├¡cula por t├¡tulo
+2 - Listar todas las pel├¡culas
+3 - Filtrar por g├®nero
+4 - Explorar categor├¡as (├ürbol)
+5 - Ver Top 10 (Heap)
+6 - Ver pel├¡culas relacionadas (Grafo)
+7 - Buscar camino entre pel├¡culas (BFS)
+8 - Explorar la red (BFS / DFS)
+0 - Salir
+----------------------------------------
+Opcion: Gracias por su consulta

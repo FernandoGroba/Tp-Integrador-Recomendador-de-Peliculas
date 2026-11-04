@@ -1,76 +1,141 @@
-import sys
-import os
-import json
+import unittest
 
-# Soluciona las rutas para poder importar desde otras carpetas
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-# 1. Importamos TU estructura y TU modelo real
-from estructuras.grafo import Grafo, NodoVertice, NodoArista, buscar_titulo_amplitud
+from estructuras.grafo import Grafo, buscar_titulo_amplitud
 from models.pelicula import Pelicula
+from services.catalogo import Catalogo
+from services.grafo_peliculas import GrafoPeliculas
 
-# 2. Instanciamos el grafo
-mi_grafo = Grafo()
 
-# 3. Creamos las películas usando tu clase real
-# (Ajustá los parámetros si tu clase Pelicula recibe otras cosas)
-# 3. Creamos las películas con TODOS los parámetros obligatorios
-peli1 = Pelicula(
-    id_peli=1, 
-    titulo="El Padrino", 
-    anio=1972, 
-    genero="Crimen", 
-    director="Coppola", 
-    actores="Marlon Brando", 
-    rating=9.2, 
-    sinopsis="Mafia"
-)
-peli2 = Pelicula(
-    id_peli=2, 
-    titulo="Scarface", 
-    anio=1983, 
-    genero="Crimen", 
-    director="De Palma", 
-    actores="Al Pacino", 
-    rating=8.3, 
-    sinopsis="Drogas en Miami"
-)
-peli3 = Pelicula(
-    id_peli=3, 
-    titulo="Goodfellas", 
-    anio=1990, 
-    genero="Crimen", 
-    director="Scorsese", 
-    actores="Robert De Niro", 
-    rating=8.7, 
-    sinopsis="Mafia en NY"
-)
+class TestGrafoEstructura(unittest.TestCase):
 
-# 4. Metemos tus objetos Pelicula reales adentro de los vértices
-v1 = NodoVertice(peli1)
-v2 = NodoVertice(peli2)
-v3 = NodoVertice(peli3)
+    def setUp(self):
+        self.grafo = Grafo(dirigido=False)
+        for nombre in ["A", "B", "C", "D", "E"]:
+            self.grafo.insertar_vertice(nombre)
 
-# 5. Armamos la red
-mi_grafo.inicio = v1
-v1.sig = v2
-v2.sig = v3
+        # A-B, A-C, B-D, C-D, D-E
+        self.grafo.insertar_arista("A", "B", "conexión", 1)
+        self.grafo.insertar_arista("A", "C", "conexión", 1)
+        self.grafo.insertar_arista("B", "D", "conexión", 1)
+        self.grafo.insertar_arista("C", "D", "conexión", 1)
+        self.grafo.insertar_arista("D", "E", "conexión", 1)
 
-conexion_1 = NodoArista("Mismo género", v2)
-conexion_2 = NodoArista("Mismo género", v3)
+    def test_insertar_vertice_no_duplica(self):
+        self.grafo.insertar_vertice("A")
 
-v1.adyacentes.inicio = conexion_1
-conexion_1.sig = conexion_2
+        self.assertEqual(len(self.grafo), 5)
 
-# 6. Ejecutamos la búsqueda
-print("=======================================")
-print("Iniciando prueba con la clase Pelicula real...")
-print("=======================================")
+    def test_arista_es_no_dirigida(self):
+        self.assertTrue(self.grafo.buscar_vertice("A"))
+        self.assertEqual(len(self.grafo.adyacentes("A")), 2)
+        self.assertEqual(len(self.grafo.adyacentes("B")), 2)
+        self.assertEqual(len(self.grafo.adyacentes("E")), 1)
 
-resultado = buscar_titulo_amplitud(mi_grafo, "Goodfellas")
+    def test_insertar_arista_con_vertice_inexistente_falla(self):
+        self.assertFalse(self.grafo.insertar_arista("A", "Z"))
 
-if resultado is not None:
-    # ATENCIÓN: Si te da un error de "AttributeError" acá, cambiá .titulo por ._titulo y .director por ._director
-    print(f"✅ Éxito: Encontrada -> {resultado.info._titulo} (Dir: {resultado.info._director})")
-else:
-    print("❌ Fallo: No se encontró la película.")
+    def test_bfs_recorre_por_niveles(self):
+        self.assertEqual(self.grafo.bfs("A"), ["A", "B", "C", "D", "E"])
+
+    def test_dfs_recorre_en_profundidad(self):
+        self.assertEqual(self.grafo.dfs("A"), ["A", "B", "D", "C", "E"])
+
+    def test_camino_mas_corto_usa_bfs(self):
+        camino = self.grafo.camino_mas_corto("A", "E")
+
+        self.assertEqual(len(camino), 4)
+        self.assertEqual(camino[0], "A")
+        self.assertEqual(camino[-1], "E")
+        self.assertIn("D", camino)
+
+    def test_camino_inexistente_devuelve_none(self):
+        self.grafo.insertar_vertice("Aislado")
+
+        self.assertIsNone(self.grafo.camino_mas_corto("A", "Aislado"))
+
+    def test_buscar_titulo_amplitud(self):
+        pelicula = Pelicula(1, "Matrix", 1999, "Ciencia Ficción", "Wachowski", "Keanu Reeves", 5.0, "")
+        grafo = Grafo()
+        grafo.insertar_vertice(pelicula)
+
+        encontrado = buscar_titulo_amplitud(grafo, "matrix")
+
+        self.assertIsNotNone(encontrado)
+        self.assertIs(encontrado.info, pelicula)
+
+
+class TestGrafoPeliculas(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        cls.catalogo = Catalogo()
+        cls.catalogo.cargar_json("data/data.json")
+        cls.grafo = GrafoPeliculas(cls.catalogo.listar())
+
+    def _pelicula(self, titulo):
+        pelicula = self.grafo.buscar(titulo)
+        self.assertIsNotNone(pelicula, f"No se encontró {titulo}")
+        return pelicula
+
+    def test_todos_los_vertices_estan_cargados(self):
+        self.assertEqual(len(self.grafo), len(self.catalogo.listar()))
+
+    def test_peliculas_del_mismo_director_se_relacionan(self):
+        padrino = self._pelicula("El Padrino")
+        parte_ii = self._pelicula("El Padrino: Parte II")
+
+        relaciones = self.grafo.relacionadas(padrino, limite=30)
+        titulos = [relacion[0].titulo for relacion in relaciones]
+
+        self.assertIn(parte_ii.titulo, titulos)
+
+    def test_relacionadas_ordena_por_afinidad_y_rating(self):
+        matrix = self._pelicula("Matrix")
+        relaciones = self.grafo.relacionadas(matrix, limite=5)
+
+        self.assertGreater(len(relaciones), 0)
+        claves = [(-peso, -pelicula.rating) for pelicula, _motivo, peso in relaciones]
+        self.assertEqual(claves, sorted(claves))
+
+    def test_relacionadas_incluye_motivo(self):
+        matrix = self._pelicula("Matrix")
+        relaciones = self.grafo.relacionadas(matrix, limite=1)
+
+        self.assertIn("común", relaciones[0][1].lower())
+
+    def test_pelicula_aislada_no_tiene_relaciones(self):
+        aislada = self._pelicula("El Bueno, el Malo y el Feo")
+
+        self.assertEqual(self.grafo.grado(aislada), 0)
+        self.assertEqual(self.grafo.relacionadas(aislada), [])
+
+    def test_camino_entre_peliculas_conectadas(self):
+        matrix = self._pelicula("Matrix")
+        oppenheimer = self._pelicula("Oppenheimer")
+
+        camino = self.grafo.camino(matrix, oppenheimer)
+
+        self.assertIsNotNone(camino)
+        self.assertIs(camino[0], matrix)
+        self.assertIs(camino[-1], oppenheimer)
+
+    def test_camino_a_pelicula_aislada_es_none(self):
+        matrix = self._pelicula("Matrix")
+        aislada = self._pelicula("El Bueno, el Malo y el Feo")
+
+        self.assertIsNone(self.grafo.camino(matrix, aislada))
+
+    def test_bfs_y_dfs_alcanzan_las_mismas_peliculas(self):
+        matrix = self._pelicula("Matrix")
+        amplitud = self.grafo.recorrido_amplitud(matrix)
+        profundidad = self.grafo.explorar(matrix)
+
+        self.assertEqual(len(amplitud), len(profundidad))
+        self.assertEqual(
+            {pelicula.id_peli for pelicula in amplitud},
+            {pelicula.id_peli for pelicula in profundidad},
+        )
+
+
+if __name__ == "__main__":
+    unittest.main()

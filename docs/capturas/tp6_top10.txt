@@ -1,0 +1,45 @@
+﻿Se cargaron 30 elementos.
+
+========================================
+BIENVENIDOS A CINEMATCH
+========================================
+1 - Buscar pel├¡cula por t├¡tulo
+2 - Listar todas las pel├¡culas
+3 - Filtrar por g├®nero
+4 - Explorar categor├¡as (├ürbol)
+5 - Ver Top 10 (Heap)
+6 - Ver pel├¡culas relacionadas (Grafo)
+7 - Buscar camino entre pel├¡culas (BFS)
+8 - Explorar la red (BFS / DFS)
+0 - Salir
+----------------------------------------
+Opcion: 
+--- ­ƒÅå TOP 10 MEJOR RANKEADAS ---
+­ƒÑç Sue├▒os de libertad ÔÇö Ô¡É 5.0 (1994)
+­ƒÑê Tiempos Violentos ÔÇö Ô¡É 5.0 (1994)
+­ƒÑë El Se├▒or de los Anillos: La Comunidad del Anillo ÔÇö Ô¡É 5.0 (2001)
+ 4. Oppenheimer ÔÇö Ô¡É 5.0 (2023)
+ 5. Todo en Todas Partes al Mismo Tiempo ÔÇö Ô¡É 5.0 (2022)
+ 6. Matrix ÔÇö Ô¡É 5.0 (1999)
+ 7. M├íquina de Guerra ÔÇö Ô¡É 4.9 (2026)
+ 8. Duna: Parte Dos ÔÇö Ô¡É 4.8 (2024)
+ 9. Apex ÔÇö Ô¡É 4.8 (2026)
+10. Una batalla tras otra ÔÇö Ô¡É 4.7 (2025)
+
+(El ranking se obtuvo con una cola de prioridades implementada como max-heap.)
+
+
+========================================
+BIENVENIDOS A CINEMATCH
+========================================
+1 - Buscar pel├¡cula por t├¡tulo
+2 - Listar todas las pel├¡culas
+3 - Filtrar por g├®nero
+4 - Explorar categor├¡as (├ürbol)
+5 - Ver Top 10 (Heap)
+6 - Ver pel├¡culas relacionadas (Grafo)
+7 - Buscar camino entre pel├¡culas (BFS)
+8 - Explorar la red (BFS / DFS)
+0 - Salir
+----------------------------------------
+Opcion: Gracias por su consulta
