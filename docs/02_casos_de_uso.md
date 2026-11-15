@@ -9,8 +9,8 @@
 ### Pasos
 1. Pones el numero **1** en el menu.
 2. Escribis una palabra (por ejemplo: `"El"` o `"batalla"`).
-3. El programa se fija cuales peliculas tienen esa palabra en el nombre y junta todas las que encuentra.
-4. Te muestra la lista de esas peliculas en la pantalla.
+3. El programa primero busca el título exacto en el árbol binario de búsqueda (BST). Después suma las peliculas que tienen esa palabra en el nombre (por ejemplo, otras partes de una saga), sin repetir.
+4. Te muestra la lista de esas peliculas en la pantalla, con la coincidencia exacta primero.
 5. Vuelve al menu principal.
 
 ### Si algo sale distinto

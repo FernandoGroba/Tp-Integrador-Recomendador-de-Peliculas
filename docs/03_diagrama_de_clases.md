@@ -129,10 +129,12 @@ classDiagram
 
     class Terminal {
         -Catalogo _catalogo
+        -ArbolCatalogo _arbol_titulos
         -ArbolGeneralCategorias _arbol_categorias
         -RankingPeliculas _ranking
         -GrafoPeliculas _grafo_pelis
         +iniciar()
+        -_buscar_titulo(titulo: String) List~Pelicula~
         -_mostrar_top()
         -_ver_relacionadas()
         -_buscar_camino()
@@ -151,6 +153,7 @@ classDiagram
     GrafoPeliculas *-- Grafo : construye
     GrafoPeliculas ..> Pelicula : relaciona
     Terminal --> Catalogo : consulta
+    Terminal --> ArbolCatalogo : búsqueda exacta por título
     Terminal --> ArbolGeneralCategorias : explora
     Terminal --> RankingPeliculas : Top 10
     Terminal --> GrafoPeliculas : relaciones y caminos

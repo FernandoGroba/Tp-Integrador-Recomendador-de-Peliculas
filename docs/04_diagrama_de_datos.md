@@ -41,6 +41,25 @@ resuelve cada consulta del sistema.
 
 ## Flujo de una consulta
 
+### Buscar por título (TP3)
+
+```text
+Terminal.__init__
+      │  inserta cada película del catálogo
+      ▼
+ArbolCatalogo.insertar()  (BST ordenado por título)
+
+Opción 1: Terminal._buscar_titulo(texto)
+      │
+      ├──► ArbolCatalogo.buscar_exacto()  O(log n) promedio
+      │         coincidencia exacta, va primero
+      │
+      └──► Catalogo.buscar()  O(n)
+                coincidencias parciales, sin repetir la exacta
+      ▼
+List<Pelicula> (exacta primero, luego el resto)
+```
+
 ### Top 10 (TP6)
 
 ```text
@@ -102,8 +121,9 @@ List<Pelicula> en orden de profundidad
 
 | Operación | Estructura | Complejidad |
 | --- | --- | --- |
-| Buscar por título en el catálogo | Lista | O(n) |
-| Buscar por título en AVL | Árbol AVL | O(log n) promedio |
+| Buscar por título (parcial, "contiene") en el catálogo | Lista | O(n) |
+| Buscar título exacto en BST (opción 1) | BST | O(log n) promedio, O(n) si se desbalancea |
+| Buscar título exacto en AVL | Árbol AVL | O(log n) siempre |
 | Insertar en la heap | Heap | O(log n) |
 | Ver el máximo | Heap | O(1) |
 | Top-N | Heap | O(n + k log n) |

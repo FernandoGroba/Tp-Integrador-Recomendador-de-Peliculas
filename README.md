@@ -29,7 +29,8 @@ de datos real y la integra a una funcionalidad concreta del producto.
 | --- | --- | --- |
 | TP1 | Objetos, clases y catálogo | ✅ Integrado |
 | TP2 | Análisis de complejidad | ✅ Documentado y con pruebas |
-| TP3 / TP4 | Árbol binario de búsqueda y AVL | ✅ Implementado y probado |
+| TP3 | Árbol binario de búsqueda | ✅ Integrado (opción 1, búsqueda exacta por título) |
+| TP4 | AVL | ✅ Implementado y probado (experimento de desbalanceo) |
 | TP5 | Árbol general de categorías | ✅ Integrado en la terminal |
 | TP6 | Heap / cola de prioridades | ✅ Integrado (Top 10) |
 | TP7 | Grafo de relaciones | ✅ Integrado (relacionadas, BFS, DFS) |
@@ -68,7 +69,7 @@ El programa carga `data/data.json` (30 películas) y muestra el menú:
 python -m unittest discover -s tests -v
 ```
 
-Las pruebas cubren catálogo, heap/ranking, grafo y recorridos.
+Las pruebas cubren catálogo, búsqueda con árbol, heap/ranking, grafo y recorridos.
 
 ## Estructura del proyecto
 
@@ -115,6 +116,10 @@ Las pruebas cubren catálogo, heap/ranking, grafo y recorridos.
 - `Catalogo`: carga el JSON, busca por título y filtra por género.
 - `ArbolCatalogo` / `Arbol_avl_Catalogo`: árbol binario y AVL ordenados por
   título.
+- La opción 1 del menú inserta el catálogo en el BST al iniciar y busca la
+  coincidencia exacta con `buscar_exacto` (O(log n) promedio). Después suma las
+  coincidencias parciales de `Catalogo.buscar`, sin repetir, para que "el
+  padrino" devuelva toda la saga.
 
 ### Árbol general
 

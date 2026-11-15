@@ -27,5 +27,39 @@ class TestCatalogo(unittest.TestCase):
 
         self.assertTrue (all("fantasía" in pelicula.genero.lower() for pelicula in resultados ))
 
+class TestBusquedaConArbol(unittest.TestCase):
+    """La opción 1 de la terminal: exacta en el BST más 'contiene' sin repetir."""
+
+    def setUp(self):
+        from UI.terminal import Terminal
+        catalogo = Catalogo()
+        catalogo.cargar_json("data/data.json")
+        self.terminal = Terminal(catalogo)
+
+    def test_exacta_va_primero_y_suma_la_saga(self):
+        resultados = self.terminal._buscar_titulo("el padrino")
+        self.assertEqual(
+            [p.titulo for p in resultados],
+            ["El Padrino", "El Padrino: Parte II"],
+        )
+
+    def test_parcial_sin_exacta_usa_contiene(self):
+        resultados = self.terminal._buscar_titulo("padrino")
+        self.assertEqual(len(resultados), 2)
+
+    def test_exacta_unica_no_se_repite(self):
+        resultados = self.terminal._buscar_titulo("matrix")
+        self.assertEqual([p.titulo for p in resultados], ["Matrix"])
+
+    def test_sin_resultados(self):
+        self.assertEqual(self.terminal._buscar_titulo("no-existe"), [])
+
+    def test_arbol_contiene_todo_el_catalogo(self):
+        self.assertEqual(
+            len(self.terminal._arbol_titulos.inorder()),
+            len(self.terminal._catalogo),
+        )
+
+
 if __name__ == "__main__":
     unittest.main()

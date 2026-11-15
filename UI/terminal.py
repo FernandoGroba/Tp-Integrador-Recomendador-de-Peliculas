@@ -2,6 +2,7 @@ from models.pelicula import Pelicula
 from services.catalogo import Catalogo
 from services.grafo_peliculas import GrafoPeliculas
 from services.ranking import RankingPeliculas
+from services.arbol_catalogo import ArbolCatalogo
 from estructuras.arbol_general import ArbolGeneralCategorias  # <-- IMPORTAMOS TU NUEVO ÁRBOL
 
 class Terminal:
@@ -9,6 +10,10 @@ class Terminal:
         self._catalogo = catalogo
         # Construimos el árbol automáticamente al iniciar la terminal
         self._arbol_categorias = self._construir_arbol()
+        # BST por título (TP3): se arma una sola vez insertando cada película
+        self._arbol_titulos = ArbolCatalogo()
+        for pelicula in self._catalogo.listar():
+            self._arbol_titulos.insertar(pelicula)
         # El ranking se construye una sola vez con una heap por rating (TP6)
         self._ranking = RankingPeliculas(self._catalogo.listar())
         # El grafo de relaciones se arma una sola vez al iniciar (TP7)
@@ -76,9 +81,25 @@ class Terminal:
         print("0 - Salir")
         print("-" * 40)
 
+    def _buscar_titulo(self, titulo: str) -> list[Pelicula]:
+        """Coincidencia exacta en el BST (O(log n)) y el resto por 'contiene'.
+
+        La película exacta, si existe, va primero; después se suman las demás
+        coincidencias parciales (por ejemplo, otras partes de una saga) sin repetir.
+        """
+        resultados: list[Pelicula] = []
+        exacta = self._arbol_titulos.buscar_exacto(titulo)
+        if exacta is not None:
+            resultados.append(exacta)
+
+        for pelicula in self._catalogo.buscar(titulo):
+            if pelicula is not exacta:
+                resultados.append(pelicula)
+        return resultados
+
     def _buscar(self) -> None:
         titulo = input("Buscar por titulo: ").strip()
-        resultados = self._catalogo.buscar(titulo)
+        resultados = self._buscar_titulo(titulo)
         if resultados:
             for pelicula in resultados:
                 print(f"Encontrada: {pelicula}")
