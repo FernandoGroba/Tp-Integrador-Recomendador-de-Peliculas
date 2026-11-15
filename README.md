@@ -30,10 +30,11 @@ de datos real y la integra a una funcionalidad concreta del producto.
 | TP1 | Objetos, clases y catálogo | ✅ Integrado |
 | TP2 | Análisis de complejidad | ✅ Documentado y con pruebas |
 | TP3 | Árbol binario de búsqueda | ✅ Integrado (opción 1, búsqueda exacta por título) |
-| TP4 | AVL | ✅ Implementado y probado (experimento de desbalanceo) |
+| TP4 | AVL | ✅ Implementado, probado y documentado (`docs/09_avl.md`) |
 | TP5 | Árbol general de categorías | ✅ Integrado en la terminal |
 | TP6 | Heap / cola de prioridades | ✅ Integrado (Top 10) |
 | TP7 | Grafo de relaciones | ✅ Integrado (relacionadas, BFS, DFS) |
+| TP8 | BFS y DFS | ✅ Integrado y documentado (`docs/08_bfs_dfs.md`) |
 
 ## Requisitos
 
@@ -84,6 +85,8 @@ Las pruebas cubren catálogo, búsqueda con árbol, heap/ranking, grafo y recorr
 │   ├── 05_gestion_proyecto.md    # Organización del proyecto
 │   ├── 06_heap.md                # TP6: heap y ranking
 │   ├── 07_grafo.md               # TP7: grafo de relaciones
+│   ├── 08_bfs_dfs.md             # TP8: recorridos BFS y DFS
+│   ├── 09_avl.md                 # TP4: AVL y desbalanceo
 │   └── capturas/                 # Evidencias de ejecución
 ├── estructuras/
 │   ├── arbol_avl.py              # Árbol AVL
@@ -151,6 +154,8 @@ Las pruebas cubren catálogo, búsqueda con árbol, heap/ranking, grafo y recorr
 - [Gestión del proyecto](docs/05_gestion_proyecto.md)
 - [TP6 — Heap](docs/06_heap.md)
 - [TP7 — Grafo](docs/07_grafo.md)
+- [TP8 — BFS y DFS](docs/08_bfs_dfs.md)
+- [TP4 — AVL y desbalanceo](docs/09_avl.md)
 
 ## Decisiones de diseño
 
