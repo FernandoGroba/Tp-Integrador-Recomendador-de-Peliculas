@@ -69,6 +69,7 @@ class ArbolCatalogo:
                 actual = actual.derecho
 
         return None
+
 # ====== Recorridos (in/pre/pos order) ======
 
     def inorder(self)-> list[Pelicula]:
