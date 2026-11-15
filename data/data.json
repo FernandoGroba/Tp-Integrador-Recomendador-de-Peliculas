@@ -298,5 +298,705 @@
     "actores": "Vin Diesel, Michelle Rodriguez",
     "rating": 4.7,
     "sinopsis": "Un antiguo grupo de revolucionarios se ve obligado a reunirse después de 16 años cuando reaparece su viejo enemigo y la hija de uno de ellos desaparece, iniciando una peligrosa misión de rescate."
+  },
+  {
+    "id": 31,
+    "titulo": "Titanic",
+    "anio": 1997,
+    "genero": "Drama, Romance",
+    "director": "James Cameron",
+    "actores": "Leonardo DiCaprio, Kate Winslet",
+    "rating": 3.9,
+    "sinopsis": "Un joven artista pobre y una muchacha de clase alta se enamoran a bordo del transatlántico en su viaje inaugural, que termina en tragedia al chocar contra un iceberg."
+  },
+  {
+    "id": 32,
+    "titulo": "El Origen",
+    "anio": 2010,
+    "genero": "Ciencia Ficción, Acción, Suspenso",
+    "director": "Christopher Nolan",
+    "actores": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+    "rating": 4.4,
+    "sinopsis": "Un ladrón que roba secretos entrando en los sueños de las personas recibe el encargo opuesto: implantar una idea en la mente de un empresario."
+  },
+  {
+    "id": 33,
+    "titulo": "Interestelar",
+    "anio": 2014,
+    "genero": "Ciencia Ficción, Aventura, Drama",
+    "director": "Christopher Nolan",
+    "actores": "Matthew McConaughey, Anne Hathaway",
+    "rating": 4.4,
+    "sinopsis": "Con la Tierra al borde del colapso, un grupo de astronautas atraviesa un agujero de gusano en busca de un nuevo hogar para la humanidad."
+  },
+  {
+    "id": 34,
+    "titulo": "Gladiador",
+    "anio": 2000,
+    "genero": "Acción, Aventura, Drama",
+    "director": "Ridley Scott",
+    "actores": "Russell Crowe, Joaquin Phoenix",
+    "rating": 4.3,
+    "sinopsis": "Un general romano traicionado y convertido en esclavo se abre camino como gladiador para vengar el asesinato de su familia."
+  },
+  {
+    "id": 35,
+    "titulo": "Forrest Gump",
+    "anio": 1994,
+    "genero": "Drama, Romance",
+    "director": "Robert Zemeckis",
+    "actores": "Tom Hanks, Robin Wright",
+    "rating": 4.4,
+    "sinopsis": "Un hombre sencillo y de buen corazón atraviesa sin proponérselo varios hechos históricos de Estados Unidos mientras sigue enamorado de su amiga de la infancia."
+  },
+  {
+    "id": 36,
+    "titulo": "Rescatando al soldado Ryan",
+    "anio": 1998,
+    "genero": "Drama, Guerra",
+    "director": "Steven Spielberg",
+    "actores": "Tom Hanks, Matt Damon",
+    "rating": 4.3,
+    "sinopsis": "Tras el desembarco de Normandía, un capitán y su escuadrón cruzan territorio enemigo para encontrar a un paracaidista cuyos hermanos murieron en combate."
+  },
+  {
+    "id": 37,
+    "titulo": "La lista de Schindler",
+    "anio": 1993,
+    "genero": "Biografía, Drama, Historia",
+    "director": "Steven Spielberg",
+    "actores": "Liam Neeson, Ben Kingsley",
+    "rating": 4.5,
+    "sinopsis": "Un empresario alemán salva a más de mil judíos durante el Holocausto empleándolos en sus fábricas."
+  },
+  {
+    "id": 38,
+    "titulo": "Buenos muchachos",
+    "anio": 1990,
+    "genero": "Biografía, Crimen, Drama",
+    "director": "Martin Scorsese",
+    "actores": "Robert De Niro, Ray Liotta",
+    "rating": 4.4,
+    "sinopsis": "La historia real de un joven que crece dentro de la mafia de Nueva York y su vida de lujos, violencia y paranoia."
+  },
+  {
+    "id": 39,
+    "titulo": "El silencio de los inocentes",
+    "anio": 1991,
+    "genero": "Crimen, Drama, Suspenso",
+    "director": "Jonathan Demme",
+    "actores": "Jodie Foster, Anthony Hopkins",
+    "rating": 4.3,
+    "sinopsis": "Una aprendiz del FBI pide ayuda a un brillante psiquiatra caníbal encarcelado para atrapar a otro asesino en serie."
+  },
+  {
+    "id": 40,
+    "titulo": "Pecados capitales",
+    "anio": 1995,
+    "genero": "Crimen, Drama, Misterio",
+    "director": "David Fincher",
+    "actores": "Brad Pitt, Morgan Freeman",
+    "rating": 4.3,
+    "sinopsis": "Dos detectives persiguen a un asesino que elige a sus víctimas según los siete pecados capitales."
+  },
+  {
+    "id": 41,
+    "titulo": "Volver al futuro",
+    "anio": 1985,
+    "genero": "Aventura, Comedia, Ciencia Ficción",
+    "director": "Robert Zemeckis",
+    "actores": "Michael J. Fox, Christopher Lloyd",
+    "rating": 4.3,
+    "sinopsis": "Un adolescente viaja accidentalmente a 1955 en un auto convertido en máquina del tiempo y debe lograr que sus padres se enamoren."
+  },
+  {
+    "id": 42,
+    "titulo": "El Señor de los Anillos: Las Dos Torres",
+    "anio": 2002,
+    "genero": "Fantasía, Aventura, Drama",
+    "director": "Peter Jackson",
+    "actores": "Elijah Wood, Ian McKellen",
+    "rating": 4.4,
+    "sinopsis": "La Comunidad se separa: Frodo y Sam siguen hacia Mordor guiados por Gollum, mientras los demás defienden el reino de Rohan."
+  },
+  {
+    "id": 43,
+    "titulo": "Avengers: Infinity War",
+    "anio": 2018,
+    "genero": "Acción, Aventura, Ciencia Ficción",
+    "director": "Anthony Russo, Joe Russo",
+    "actores": "Robert Downey Jr., Chris Evans",
+    "rating": 4.2,
+    "sinopsis": "Los Vengadores y sus aliados intentan impedir que Thanos reúna las seis Gemas del Infinito y elimine a la mitad del universo."
+  },
+  {
+    "id": 44,
+    "titulo": "Avengers: Endgame",
+    "anio": 2019,
+    "genero": "Acción, Aventura, Ciencia Ficción",
+    "director": "Anthony Russo, Joe Russo",
+    "actores": "Robert Downey Jr., Chris Evans",
+    "rating": 4.2,
+    "sinopsis": "Tras la derrota ante Thanos, los Vengadores sobrevivientes se reúnen para revertir el daño y recuperar a los que perdieron."
+  },
+  {
+    "id": 45,
+    "titulo": "Parásitos",
+    "anio": 2019,
+    "genero": "Comedia Oscura, Drama, Suspenso",
+    "director": "Bong Joon-ho",
+    "actores": "Song Kang-ho, Cho Yeo-jeong",
+    "rating": 4.3,
+    "sinopsis": "Una familia pobre se infiltra, uno por uno, como empleados en la casa de una familia millonaria, hasta que un secreto lo cambia todo."
+  },
+  {
+    "id": 46,
+    "titulo": "El secreto de sus ojos",
+    "anio": 2009,
+    "genero": "Crimen, Drama, Misterio",
+    "director": "Juan José Campanella",
+    "actores": "Ricardo Darín, Soledad Villamil",
+    "rating": 4.1,
+    "sinopsis": "Un empleado judicial retirado escribe una novela sobre un asesinato que investigó hace 25 años y que nunca pudo olvidar."
+  },
+  {
+    "id": 47,
+    "titulo": "Relatos salvajes",
+    "anio": 2014,
+    "genero": "Comedia Oscura, Drama, Suspenso",
+    "director": "Damián Szifron",
+    "actores": "Ricardo Darín, Leonardo Sbaraglia",
+    "rating": 4.0,
+    "sinopsis": "Seis historias independientes en las que personas comunes pierden el control ante situaciones de injusticia o frustración."
+  },
+  {
+    "id": 48,
+    "titulo": "Nueve reinas",
+    "anio": 2000,
+    "genero": "Crimen, Drama, Suspenso",
+    "director": "Fabián Bielinsky",
+    "actores": "Ricardo Darín, Gastón Pauls",
+    "rating": 3.9,
+    "sinopsis": "Dos estafadores que se conocen por casualidad intentan vender una valiosa planilla de estampillas falsificadas en un solo día."
+  },
+  {
+    "id": 49,
+    "titulo": "Argentina, 1985",
+    "anio": 2022,
+    "genero": "Biografía, Drama, Historia",
+    "director": "Santiago Mitre",
+    "actores": "Ricardo Darín, Peter Lanzani",
+    "rating": 3.9,
+    "sinopsis": "El fiscal Julio Strassera y un joven equipo enfrentan el juicio a las Juntas Militares de la última dictadura argentina."
+  },
+  {
+    "id": 50,
+    "titulo": "El Rey León",
+    "anio": 1994,
+    "genero": "Animación, Aventura, Drama",
+    "director": "Roger Allers, Rob Minkoff",
+    "actores": "Matthew Broderick, Jeremy Irons",
+    "rating": 4.3,
+    "sinopsis": "Un joven león huye de su reino tras la muerte de su padre y debe volver para enfrentar a su tío y ocupar su lugar."
+  },
+  {
+    "id": 51,
+    "titulo": "Toy Story",
+    "anio": 1995,
+    "genero": "Animación, Aventura, Comedia",
+    "director": "John Lasseter",
+    "actores": "Tom Hanks, Tim Allen",
+    "rating": 4.2,
+    "sinopsis": "El vaquero Woody siente celos cuando llega un nuevo juguete, el astronauta Buzz Lightyear, y ambos terminan perdidos lejos de casa."
+  },
+  {
+    "id": 52,
+    "titulo": "Intensa-Mente",
+    "anio": 2015,
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Pete Docter",
+    "actores": "Amy Poehler, Bill Hader",
+    "rating": 4.1,
+    "sinopsis": "Las emociones que viven en la cabeza de una niña deben trabajar juntas cuando su familia se muda a otra ciudad."
+  },
+  {
+    "id": 53,
+    "titulo": "Intensa-Mente 2",
+    "anio": 2024,
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Kelsey Mann",
+    "actores": "Amy Poehler, Maya Hawke",
+    "rating": 3.8,
+    "sinopsis": "Riley entra en la adolescencia y nuevas emociones, como Ansiedad, llegan para tomar el control de su mente."
+  },
+  {
+    "id": 54,
+    "titulo": "Coco",
+    "anio": 2017,
+    "genero": "Animación, Aventura, Familiar",
+    "director": "Lee Unkrich",
+    "actores": "Anthony Gonzalez, Gael García Bernal",
+    "rating": 4.2,
+    "sinopsis": "Un niño mexicano que sueña con ser músico termina en la Tierra de los Muertos y busca a su tatarabuelo para volver a casa."
+  },
+  {
+    "id": 55,
+    "titulo": "Buscando a Nemo",
+    "anio": 2003,
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Andrew Stanton",
+    "actores": "Albert Brooks, Ellen DeGeneres",
+    "rating": 4.1,
+    "sinopsis": "Un pez payaso sobreprotector cruza el océano con una amiga olvidadiza para rescatar a su hijo capturado por un buzo."
+  },
+  {
+    "id": 56,
+    "titulo": "Shrek",
+    "anio": 2001,
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Andrew Adamson, Vicky Jenson",
+    "actores": "Mike Myers, Eddie Murphy",
+    "rating": 3.9,
+    "sinopsis": "Un ogro gruñón acepta rescatar a una princesa para recuperar la tranquilidad de su pantano, acompañado por un burro parlanchín."
+  },
+  {
+    "id": 57,
+    "titulo": "Up: Una aventura de altura",
+    "anio": 2009,
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Pete Docter",
+    "actores": "Ed Asner, Jordan Nagai",
+    "rating": 4.2,
+    "sinopsis": "Un anciano ata miles de globos a su casa para viajar a Sudamérica, sin saber que un niño explorador viaja con él."
+  },
+  {
+    "id": 58,
+    "titulo": "El viaje de Chihiro",
+    "anio": 2001,
+    "genero": "Animación, Aventura, Fantasía",
+    "director": "Hayao Miyazaki",
+    "actores": "Rumi Hiiragi, Miyu Irino",
+    "rating": 4.3,
+    "sinopsis": "Una niña queda atrapada en un mundo de espíritus y debe trabajar en una casa de baños para salvar a sus padres, convertidos en cerdos."
+  },
+  {
+    "id": 59,
+    "titulo": "Spider-Man: A través del Spider-Verso",
+    "anio": 2023,
+    "genero": "Animación, Acción, Aventura",
+    "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+    "actores": "Shameik Moore, Hailee Steinfeld",
+    "rating": 4.3,
+    "sinopsis": "Miles Morales viaja por el multiverso y se enfrenta a una sociedad de Spider-Personas que no está de acuerdo con cómo quiere salvar a los suyos."
+  },
+  {
+    "id": 60,
+    "titulo": "Frozen: Una aventura congelada",
+    "anio": 2013,
+    "genero": "Animación, Aventura, Comedia",
+    "director": "Chris Buck, Jennifer Lee",
+    "actores": "Kristen Bell, Idina Menzel",
+    "rating": 3.7,
+    "sinopsis": "Una princesa emprende un viaje para encontrar a su hermana, cuyos poderes de hielo dejaron al reino atrapado en un invierno eterno."
+  },
+  {
+    "id": 61,
+    "titulo": "Mi villano favorito",
+    "anio": 2010,
+    "genero": "Animación, Comedia, Familiar",
+    "director": "Pierre Coffin, Chris Renaud",
+    "actores": "Steve Carell, Jason Segel",
+    "rating": 3.8,
+    "sinopsis": "Un villano planea robar la Luna y adopta a tres niñas huérfanas como parte de su plan, sin imaginar que cambiarán su vida."
+  },
+  {
+    "id": 62,
+    "titulo": "Jurassic Park",
+    "anio": 1993,
+    "genero": "Aventura, Ciencia Ficción, Acción",
+    "director": "Steven Spielberg",
+    "actores": "Sam Neill, Laura Dern",
+    "rating": 4.1,
+    "sinopsis": "Un grupo de visitantes recorre un parque temático con dinosaurios clonados cuando una falla de seguridad los deja sueltos."
+  },
+  {
+    "id": 63,
+    "titulo": "Tiburón",
+    "anio": 1975,
+    "genero": "Aventura, Suspenso",
+    "director": "Steven Spielberg",
+    "actores": "Roy Scheider, Robert Shaw",
+    "rating": 4.0,
+    "sinopsis": "Un jefe de policía, un biólogo marino y un pescador salen al mar a cazar al enorme tiburón blanco que aterroriza un pueblo costero."
+  },
+  {
+    "id": 64,
+    "titulo": "Terminator 2: El juicio final",
+    "anio": 1991,
+    "genero": "Acción, Ciencia Ficción",
+    "director": "James Cameron",
+    "actores": "Arnold Schwarzenegger, Linda Hamilton",
+    "rating": 4.3,
+    "sinopsis": "Un cyborg es enviado desde el futuro para proteger a un niño que liderará a la humanidad, perseguido por una máquina más avanzada."
+  },
+  {
+    "id": 65,
+    "titulo": "Alien: El octavo pasajero",
+    "anio": 1979,
+    "genero": "Ciencia Ficción, Terror",
+    "director": "Ridley Scott",
+    "actores": "Sigourney Weaver, Tom Skerritt",
+    "rating": 4.3,
+    "sinopsis": "La tripulación de una nave de carga responde a una señal de auxilio y lleva a bordo, sin saberlo, a una criatura mortal."
+  },
+  {
+    "id": 66,
+    "titulo": "Avatar",
+    "anio": 2009,
+    "genero": "Ciencia Ficción, Aventura, Acción",
+    "director": "James Cameron",
+    "actores": "Sam Worthington, Zoe Saldana",
+    "rating": 3.9,
+    "sinopsis": "Un marine parapléjico controla un cuerpo alienígena en la luna Pandora y termina dividido entre su misión y el pueblo Na'vi."
+  },
+  {
+    "id": 67,
+    "titulo": "Duna",
+    "anio": 2021,
+    "genero": "Ciencia Ficción, Aventura, Acción",
+    "director": "Denis Villeneuve",
+    "actores": "Timothée Chalamet, Rebecca Ferguson",
+    "rating": 4.0,
+    "sinopsis": "El heredero de una familia noble llega al peligroso planeta desierto Arrakis, fuente de la sustancia más valiosa del universo."
+  },
+  {
+    "id": 68,
+    "titulo": "Batman inicia",
+    "anio": 2005,
+    "genero": "Acción, Crimen, Drama",
+    "director": "Christopher Nolan",
+    "actores": "Christian Bale, Michael Caine",
+    "rating": 4.1,
+    "sinopsis": "Después de entrenarse lejos de casa, Bruce Wayne regresa a Ciudad Gótica para combatir el crimen bajo la identidad de Batman."
+  },
+  {
+    "id": 69,
+    "titulo": "El Caballero de la Noche asciende",
+    "anio": 2012,
+    "genero": "Acción, Crimen, Drama",
+    "director": "Christopher Nolan",
+    "actores": "Christian Bale, Tom Hardy",
+    "rating": 4.2,
+    "sinopsis": "Ocho años después de retirarse, Batman vuelve para enfrentar a Bane, un terrorista que quiere destruir Ciudad Gótica."
+  },
+  {
+    "id": 70,
+    "titulo": "Guasón",
+    "anio": 2019,
+    "genero": "Crimen, Drama, Suspenso",
+    "director": "Todd Phillips",
+    "actores": "Joaquin Phoenix, Robert De Niro",
+    "rating": 4.2,
+    "sinopsis": "Un comediante fracasado y marginado por la sociedad se hunde en la locura hasta convertirse en un criminal."
+  },
+  {
+    "id": 71,
+    "titulo": "El lobo de Wall Street",
+    "anio": 2013,
+    "genero": "Biografía, Comedia, Crimen",
+    "director": "Martin Scorsese",
+    "actores": "Leonardo DiCaprio, Jonah Hill",
+    "rating": 4.1,
+    "sinopsis": "La historia real de un corredor de bolsa que se hace millonario con fraudes y excesos, hasta que el FBI lo investiga."
+  },
+  {
+    "id": 72,
+    "titulo": "Los infiltrados",
+    "anio": 2006,
+    "genero": "Crimen, Drama, Suspenso",
+    "director": "Martin Scorsese",
+    "actores": "Leonardo DiCaprio, Matt Damon",
+    "rating": 4.3,
+    "sinopsis": "Un policía encubierto dentro de la mafia de Boston y un mafioso infiltrado en la policía intentan descubrir la identidad del otro."
+  },
+  {
+    "id": 73,
+    "titulo": "Bastardos sin gloria",
+    "anio": 2009,
+    "genero": "Aventura, Drama, Guerra",
+    "director": "Quentin Tarantino",
+    "actores": "Brad Pitt, Christoph Waltz",
+    "rating": 4.2,
+    "sinopsis": "En la Francia ocupada, un grupo de soldados judíos estadounidenses y una dueña de cine planean por separado acabar con los líderes nazis."
+  },
+  {
+    "id": 74,
+    "titulo": "Kill Bill: Volumen 1",
+    "anio": 2003,
+    "genero": "Acción, Crimen, Suspenso",
+    "director": "Quentin Tarantino",
+    "actores": "Uma Thurman, Lucy Liu",
+    "rating": 4.1,
+    "sinopsis": "Una exasesina despierta del coma y sale a vengarse, uno por uno, del grupo que intentó matarla el día de su boda."
+  },
+  {
+    "id": 75,
+    "titulo": "Perros de reserva",
+    "anio": 1992,
+    "genero": "Crimen, Suspenso",
+    "director": "Quentin Tarantino",
+    "actores": "Harvey Keitel, Tim Roth",
+    "rating": 4.1,
+    "sinopsis": "Tras un robo de joyas que sale mal, los ladrones sobrevivientes sospechan que uno de ellos es un informante de la policía."
+  },
+  {
+    "id": 76,
+    "titulo": "Whiplash: Música y obsesión",
+    "anio": 2014,
+    "genero": "Drama, Musical",
+    "director": "Damien Chazelle",
+    "actores": "Miles Teller, J.K. Simmons",
+    "rating": 4.2,
+    "sinopsis": "Un joven baterista de jazz es llevado al límite por un profesor tan exigente como cruel."
+  },
+  {
+    "id": 77,
+    "titulo": "La La Land: Una historia de amor",
+    "anio": 2016,
+    "genero": "Comedia, Drama, Musical, Romance",
+    "director": "Damien Chazelle",
+    "actores": "Ryan Gosling, Emma Stone",
+    "rating": 4.0,
+    "sinopsis": "Un pianista de jazz y una aspirante a actriz se enamoran en Los Ángeles mientras persiguen sus sueños."
+  },
+  {
+    "id": 78,
+    "titulo": "Rápido y furioso",
+    "anio": 2001,
+    "genero": "Acción, Crimen, Suspenso",
+    "director": "Rob Cohen",
+    "actores": "Vin Diesel, Paul Walker",
+    "rating": 3.4,
+    "sinopsis": "Un policía encubierto se infiltra en el mundo de las carreras callejeras de Los Ángeles para investigar una banda de ladrones de camiones."
+  },
+  {
+    "id": 79,
+    "titulo": "Mad Max: Furia en el camino",
+    "anio": 2015,
+    "genero": "Acción, Aventura, Ciencia Ficción",
+    "director": "George Miller",
+    "actores": "Tom Hardy, Charlize Theron",
+    "rating": 4.0,
+    "sinopsis": "En un desierto postapocalíptico, una guerrera escapa de un tirano con un grupo de mujeres y la ayuda de un vagabundo llamado Max."
+  },
+  {
+    "id": 80,
+    "titulo": "John Wick",
+    "anio": 2014,
+    "genero": "Acción, Crimen, Suspenso",
+    "director": "Chad Stahelski",
+    "actores": "Keanu Reeves, Michael Nyqvist",
+    "rating": 3.7,
+    "sinopsis": "Un asesino a sueldo retirado vuelve al crimen para vengarse de los mafiosos que le robaron el auto y mataron a su perro."
+  },
+  {
+    "id": 81,
+    "titulo": "Misión imposible: Repercusión",
+    "anio": 2018,
+    "genero": "Acción, Aventura, Suspenso",
+    "director": "Christopher McQuarrie",
+    "actores": "Tom Cruise, Henry Cavill",
+    "rating": 3.9,
+    "sinopsis": "Ethan Hunt y su equipo corren contra el tiempo para recuperar material nuclear robado después de que una misión fracasa."
+  },
+  {
+    "id": 82,
+    "titulo": "Top Gun: Maverick",
+    "anio": 2022,
+    "genero": "Acción, Drama",
+    "director": "Joseph Kosinski",
+    "actores": "Tom Cruise, Miles Teller",
+    "rating": 4.1,
+    "sinopsis": "Treinta años después, el piloto Maverick vuelve para entrenar a un grupo de jóvenes aviadores para una misión casi imposible."
+  },
+  {
+    "id": 83,
+    "titulo": "Piratas del Caribe: La maldición del Perla Negra",
+    "anio": 2003,
+    "genero": "Acción, Aventura, Fantasía",
+    "director": "Gore Verbinski",
+    "actores": "Johnny Depp, Orlando Bloom",
+    "rating": 4.0,
+    "sinopsis": "Un herrero se une al excéntrico pirata Jack Sparrow para rescatar a la hija del gobernador, secuestrada por una tripulación maldita."
+  },
+  {
+    "id": 84,
+    "titulo": "Harry Potter y la piedra filosofal",
+    "anio": 2001,
+    "genero": "Aventura, Familiar, Fantasía",
+    "director": "Chris Columbus",
+    "actores": "Daniel Radcliffe, Emma Watson",
+    "rating": 3.8,
+    "sinopsis": "Un niño huérfano descubre que es mago y empieza su primer año en el colegio Hogwarts, donde se esconde un objeto muy poderoso."
+  },
+  {
+    "id": 85,
+    "titulo": "Harry Potter y las Reliquias de la Muerte: Parte 2",
+    "anio": 2011,
+    "genero": "Aventura, Fantasía, Misterio",
+    "director": "David Yates",
+    "actores": "Daniel Radcliffe, Emma Watson",
+    "rating": 4.1,
+    "sinopsis": "Harry, Ron y Hermione buscan los últimos Horrocruxes mientras se prepara la batalla final contra Voldemort en Hogwarts."
+  },
+  {
+    "id": 86,
+    "titulo": "Star Wars: Episodio IV - Una nueva esperanza",
+    "anio": 1977,
+    "genero": "Acción, Aventura, Ciencia Ficción",
+    "director": "George Lucas",
+    "actores": "Mark Hamill, Harrison Ford",
+    "rating": 4.3,
+    "sinopsis": "Un joven granjero se une a un caballero Jedi, un contrabandista y una princesa rebelde para destruir la Estrella de la Muerte."
+  },
+  {
+    "id": 87,
+    "titulo": "Star Wars: Episodio V - El Imperio contraataca",
+    "anio": 1980,
+    "genero": "Acción, Aventura, Ciencia Ficción",
+    "director": "Irvin Kershner",
+    "actores": "Mark Hamill, Harrison Ford",
+    "rating": 4.4,
+    "sinopsis": "Mientras el Imperio persigue a los rebeldes, Luke se entrena como Jedi y descubre una verdad impactante sobre Darth Vader."
+  },
+  {
+    "id": 88,
+    "titulo": "Indiana Jones y los cazadores del arca perdida",
+    "anio": 1981,
+    "genero": "Acción, Aventura",
+    "director": "Steven Spielberg",
+    "actores": "Harrison Ford, Karen Allen",
+    "rating": 4.2,
+    "sinopsis": "Un arqueólogo aventurero compite contra los nazis para encontrar el Arca de la Alianza antes que ellos."
+  },
+  {
+    "id": 89,
+    "titulo": "El resplandor",
+    "anio": 1980,
+    "genero": "Drama, Terror",
+    "director": "Stanley Kubrick",
+    "actores": "Jack Nicholson, Shelley Duvall",
+    "rating": 4.2,
+    "sinopsis": "Un escritor acepta cuidar un hotel aislado durante el invierno junto a su familia y poco a poco pierde la cordura."
+  },
+  {
+    "id": 90,
+    "titulo": "Psicosis",
+    "anio": 1960,
+    "genero": "Terror, Misterio, Suspenso",
+    "director": "Alfred Hitchcock",
+    "actores": "Anthony Perkins, Janet Leigh",
+    "rating": 4.3,
+    "sinopsis": "Una secretaria que huye con dinero robado se hospeda en un motel solitario atendido por un joven extraño y su misteriosa madre."
+  },
+  {
+    "id": 91,
+    "titulo": "El conjuro",
+    "anio": 2013,
+    "genero": "Terror, Misterio, Suspenso",
+    "director": "James Wan",
+    "actores": "Vera Farmiga, Patrick Wilson",
+    "rating": 3.8,
+    "sinopsis": "Dos investigadores de lo paranormal ayudan a una familia aterrorizada por una presencia oscura en su nueva casa de campo."
+  },
+  {
+    "id": 92,
+    "titulo": "¡Huye!",
+    "anio": 2017,
+    "genero": "Terror, Misterio, Suspenso",
+    "director": "Jordan Peele",
+    "actores": "Daniel Kaluuya, Allison Williams",
+    "rating": 3.9,
+    "sinopsis": "Un joven afroamericano visita a la familia de su novia blanca y descubre que la amabilidad de todos esconde algo siniestro."
+  },
+  {
+    "id": 93,
+    "titulo": "Bohemian Rhapsody: La historia de Freddie Mercury",
+    "anio": 2018,
+    "genero": "Biografía, Drama, Musical",
+    "director": "Bryan Singer",
+    "actores": "Rami Malek, Lucy Boynton",
+    "rating": 4.0,
+    "sinopsis": "La historia de la banda Queen y de su cantante Freddie Mercury, desde sus comienzos hasta el recital Live Aid de 1985."
+  },
+  {
+    "id": 94,
+    "titulo": "Una mente brillante",
+    "anio": 2001,
+    "genero": "Biografía, Drama",
+    "director": "Ron Howard",
+    "actores": "Russell Crowe, Jennifer Connelly",
+    "rating": 4.1,
+    "sinopsis": "La vida del matemático John Nash, un genio que lucha contra la esquizofrenia mientras hace aportes que le valdrán el Premio Nobel."
+  },
+  {
+    "id": 95,
+    "titulo": "Atrápame si puedes",
+    "anio": 2002,
+    "genero": "Biografía, Crimen, Drama",
+    "director": "Steven Spielberg",
+    "actores": "Leonardo DiCaprio, Tom Hanks",
+    "rating": 4.0,
+    "sinopsis": "Un joven estafador se hace pasar por piloto, médico y abogado mientras un agente del FBI lo persigue por todo el mundo."
+  },
+  {
+    "id": 96,
+    "titulo": "Red social",
+    "anio": 2010,
+    "genero": "Biografía, Drama",
+    "director": "David Fincher",
+    "actores": "Jesse Eisenberg, Andrew Garfield",
+    "rating": 3.9,
+    "sinopsis": "El estudiante de Harvard Mark Zuckerberg crea Facebook y termina enfrentado en juicios con sus antiguos amigos y socios."
+  },
+  {
+    "id": 97,
+    "titulo": "Mujer Maravilla",
+    "anio": 2017,
+    "genero": "Acción, Aventura, Fantasía",
+    "director": "Patty Jenkins",
+    "actores": "Gal Gadot, Chris Pine",
+    "rating": 3.7,
+    "sinopsis": "Una princesa amazona deja su isla para ayudar a un piloto espía a terminar la Primera Guerra Mundial."
+  },
+  {
+    "id": 98,
+    "titulo": "Pantera Negra",
+    "anio": 2018,
+    "genero": "Acción, Aventura, Ciencia Ficción",
+    "director": "Ryan Coogler",
+    "actores": "Chadwick Boseman, Michael B. Jordan",
+    "rating": 3.7,
+    "sinopsis": "T'Challa vuelve a Wakanda para asumir como rey, pero un rival del pasado reclama el trono y amenaza a su pueblo."
+  },
+  {
+    "id": 99,
+    "titulo": "Deadpool",
+    "anio": 2016,
+    "genero": "Acción, Comedia, Ciencia Ficción",
+    "director": "Tim Miller",
+    "actores": "Ryan Reynolds, Morena Baccarin",
+    "rating": 4.0,
+    "sinopsis": "Un exmercenario sometido a un experimento queda desfigurado pero con poderes de curación, y busca vengarse del responsable."
+  },
+  {
+    "id": 100,
+    "titulo": "Wicked",
+    "anio": 2024,
+    "genero": "Fantasía, Musical, Romance",
+    "director": "Jon M. Chu",
+    "actores": "Cynthia Erivo, Ariana Grande",
+    "rating": 3.7,
+    "sinopsis": "Antes de Dorothy, dos jóvenes muy distintas se conocen en la universidad de Oz: una será la Bruja Mala del Oeste y la otra, Glinda la Buena."
   }
 ]
