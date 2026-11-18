@@ -49,7 +49,7 @@ class Terminal:
                 self._listar()
             elif opcion == "3":
                 self._filtrar()
-            elif opcion == "4":                   # <-- NUEVA OPCIÓN
+            elif opcion == "4":                   
                 self._explorar_categorias()
             elif opcion == "5":
                 self._mostrar_top()
@@ -73,10 +73,10 @@ class Terminal:
         print("1 - Buscar película por título")
         print("2 - Listar todas las películas")
         print("3 - Filtrar por género")
-        print("4 - Explorar categorías (Árbol)") # <-- NUEVO TEXTO EN EL MENÚ
+        print("4 - Explorar categorías") 
         print("5 - Ver Top 10 (Heap)")
-        print("6 - Ver películas relacionadas (Grafo)")
-        print("7 - Buscar camino entre películas (BFS)")
+        print("6 - Ver películas relacionadas ")
+        print("7 - Buscar camino entre películas ")
         print("8 - Explorar la red (BFS / DFS)")
         print("0 - Salir")
         print("-" * 40)
